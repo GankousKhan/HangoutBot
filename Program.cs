@@ -10,7 +10,6 @@ namespace HangoutBot
 {
     public class Program
     {
-        private static HttpClient _client = new HttpClient();
         private static IServiceProvider _serviceProvider;
 
         public static async Task Main(string[] args)
